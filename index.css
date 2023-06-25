@@ -56,7 +56,6 @@ header{
 }
 
 .perfil-redes{
-    background-color: rgb(14, 161, 161);
     background-image: url("fredymar.jpgp.jpg");
     width: 180px;
     height: 180px;
@@ -76,6 +75,12 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    transition: 0.3s;
+}
+
+.perfil-redes img:hover{
+    transform: scale(1.2);
+
 }
 
 .gitbuh-link{
@@ -96,9 +101,10 @@ header{
 
 .presentacion-content{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
     width: 50%;
+
 }
 
 .presentacion-container{
@@ -113,11 +119,69 @@ header{
     font-size: 28px;
     font-weight: 300;
     font-style: italic;
-    ;
 }
 
 .perfil-redes-container{
 position: absolute;
 top: -90px;
-left: -90px;
+left: 0px;
+}
+
+#Formacion{
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Formacion-container{
+    width: 50%;
+}
+
+.Formacion-container h2{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.Formacion-item{
+    margin-top: 16px;
+    padding-left: 8px;
+    border-left: 6px solid black;
+    border-radius: 5px;
+}
+
+.anio{
+    font-size: 14px;
+}
+
+.diploma{
+    font-size: 14px;
+}
+
+.institucion{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#Experiencia{
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+
+.Experiencia-container{
+    width: 50%;
+}
+
+Experiencia-item{
+    margin-top: 16px;
+    padding-left: 8px;
+    border-left: 6px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.Experiencia-container h2{
+    font-weight: 300;
+    font-style: italic;
 }
